@@ -1,0 +1,78 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Alegreya', serif;
+}
+
+/* ============header============ */
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    color:#000;
+    text-align: right;
+    display: block;
+    margin-top: 88px;
+    margin-right: 167px;
+    font-size: 16px;
+    opacity: 50%;
+}
+.logo {
+    margin: 0 auto;
+    display: block;
+    margin-top: 70px;
+    width: 1015.4px;
+    height: 592.3px;
+}
+
+/* ==========city=========== */
+.city {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* ======== позиционирование города ============= */
+.city img {
+    position: absolute;
+}
+.background {
+    top: -100px;
+    left: 0;
+    width: 100%;
+}
+.house_1 {
+    right: 0;
+    top: 900px;
+    z-index: 150;
+}
+.house_2 {
+    top: 0;
+    z-index: 120;
+    top: 290px;
+    right: 300px;
+}
+.house_3 {
+    top: 1000px;
+    z-index: 110;
+    left: 10%;
+}
+.bridge {   
+    top: 1200px;
+    z-index: 190;
+    left:10%; 
+   
+}
+.moscow {
+    left: 0;
+    top: 350px;
+    z-index: 100;
+}
+.lighters {
+    right: 0;
+    top: 1300px;
+    right: 0;
+    z-index: 250;
+}
+.hero {
+    z-index: 300;
+    top: 300px;
+}
+
