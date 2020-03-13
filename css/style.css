@@ -46,7 +46,7 @@ body {
 .house_2 {
     top: 0;
     z-index: 120;
-    top: 290px;
+    top: 490px;
     right: 300px;
 }
 .house_3 {
@@ -55,15 +55,16 @@ body {
     left: 10%;
 }
 .bridge {   
-    top: 1200px;
+    top: 1500px;
     z-index: 190;
     left:10%; 
    
 }
 .moscow {
     left: 0;
-    top: 350px;
+    top: 450px;
     z-index: 100;
+    
 }
 .lighters {
     right: 0;
@@ -73,6 +74,6 @@ body {
 }
 .hero {
     z-index: 300;
-    top: 300px;
+    top: 1300px;
 }
 
